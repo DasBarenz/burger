@@ -2,8 +2,9 @@
 	{{name}}
 
 	<button class="change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
-		{{!-- {{#if eaten}}EAT ME!{{else}}yum{{/if}} --}}
+		{{#if eaten}}EAT ME!{{else}}Order it Again!{{/if}}
+		{{!-- {{#if eaten}}EAT ME!{{else}}{{/if}} --}}
 		{{!-- {{#if !eaten}}EAT ME!  --}}
-		EAT ME!
+		{{!-- EAT ME! --}}
 	</button>
 </li>

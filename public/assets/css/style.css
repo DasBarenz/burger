@@ -1,19 +1,50 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  margin-left: -35px;
+  width: 100%;
+  background: #b8b0c7;
+  font-size: 1.5rem;
 }
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
+/* .create-update-form {
   padding: 5px;
   margin: 5px;
   background: aqua;
-}
+} */
 
 .form-group {
   margin-bottom: 5px;
+  font-size: 1.5rem !important;
+}
+
+body {
+  background-color: #E2DFE8;
+}
+
+.main {
+  margin: auto;
+  width: 70%;
+}
+
+h1 {
+  font-size: 4.5rem !important;
+  font-weight: 500 !important;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+  font-weight: 600 !important;
+}
+
+.submitButton {
+  font-size: 1.5rem;
+}
+
+.change-eaten {
+
 }

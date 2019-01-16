@@ -2,7 +2,7 @@
 
 <h2>Burgers On The Menu</h2>
 
-<ul>
+<ul style="list-style-type:none">
   {{#each burgers}}
     {{#unless eaten}}
       {{> burgers/burger-block eaten=true}}
@@ -12,7 +12,7 @@
 
 <h2>Burgers You NomNommed</h2>
 
-<ul>
+<ul style="list-style-type:none">
   {{#each burgers}}
     {{#if eaten}}
       {{> burgers/burger-block eaten=false}}
@@ -28,5 +28,5 @@
     <input type="text" id="ca" name="name">
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button class="submitButton" type="submit">Add Burger</button>
 </form>

@@ -28,6 +28,8 @@ $(function () {
     var newBurger = {
       name: $("#ca").val().trim(),
       // sleepy: $("[name=eaten]:checked").val().trim()
+      eaten: false
+
     };
 
     // Send the POST request.
